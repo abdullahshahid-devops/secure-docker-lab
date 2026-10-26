@@ -1,0 +1,11 @@
+Trivy Base Image Comparison
+
+Image          OS Vulnerabilities       Node Package Vulnerabilities
+node:18        2472 (2236 HIGH, 236 CRITICAL)   23 (22 HIGH, 1 CRITICAL)
+node:18-slim   82 (76 HIGH, 6 CRITICAL)        23 (22 HIGH, 1 CRITICAL)
+node:18-alpine 21 (19 HIGH, 2 CRITICAL)        23 (22 HIGH, 1 CRITICAL)
+
+Conclusion:
+node:18-alpine had the fewest reported OS vulnerabilities in this scan.
+All three images had the same reported Node.js package vulnerability count.
+Counts are from this scan and may change when image versions or vulnerability databases change.

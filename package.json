@@ -1,0 +1,10 @@
+{
+  "name": "secure-docker-app",
+  "version": "1.0.0",
+  "description": "A secure Docker application example",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {}
+}
