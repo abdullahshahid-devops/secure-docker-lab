@@ -1,0 +1,18 @@
+Lab 73 - Docker Security
+
+Completed and verified:
+- Docker application built and runs successfully.
+- Non-root user verified (UID 1001).
+- Trivy vulnerability scan and JSON report generated.
+- Base-image comparison report saved.
+- Hardened image built and tested.
+- Compose security controls verified: read-only root filesystem,
+  dropped capabilities, non-root user, no-new-privileges.
+- Trivy security gate tested locally; HIGH/CRITICAL findings caused exit code 1.
+- GitHub Actions workflow file created.
+- Local Node.js container check passed.
+
+Blocked / not yet verified:
+- Docker Content Trust: `docker trust` is unavailable in Docker CLI 29.6.0.
+- GitHub Actions workflow has not been run on GitHub.
+- No image signing or signature verification completed.
